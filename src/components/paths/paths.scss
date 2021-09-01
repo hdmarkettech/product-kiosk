@@ -1,0 +1,19 @@
+.categories {
+  margin: 0;
+  .items{
+    margin-bottom: 3vh;
+    display: block;
+  }
+  img {
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+    object-position: center;
+    height: auto;
+    width: 100%;
+    margin-bottom: 10px;
+    max-height: 26vh;
+  }
+}
+.products .categories{
+  width: 20%;
+}

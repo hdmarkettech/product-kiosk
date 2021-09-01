@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Yantramanav:100,300,400,500,700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Yantramanav', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 300;
+  color: #5b6770;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+p{
+  color: #5b6770;
+  font-size: 1vw;
+  font-weight: 300;
+}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{
+  font-family: 'Yantramanav', sans-serif;
+  font-weight: 100;
+  color: #5b6770;
+}
+h4{
+  font-weight: 300;
+  font-size: 1.6vw;
+}

@@ -1,0 +1,43 @@
+.background{
+  &.product-gallery{
+    padding: 30px 20px;
+    img{
+      display: block;
+      height: 120px;
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+      margin-bottom: 1rem;
+      cursor: pointer;
+    }
+    h2{
+      font-size: 2.15vw;
+    }
+  }
+  &.product-info{
+    background-color: white;
+    padding: 30px 50px;
+    h1{
+      font-size: 2.5vw;
+      margin-bottom: 2.1vw;
+    }
+    h2{
+      font-size: 1.9vw;
+      margin: 0 0 .25vw 0;
+      line-height: 1;
+    }
+    h3{
+      font-size: .8vw;
+      font-weight: 700;
+      line-height: 1;
+      margin: 0 0 .8vw 0;
+    }
+    ul{
+      margin-bottom: 2vw;
+    }
+    li{
+      font-size: 1vw;
+    }
+  }
+}
+
